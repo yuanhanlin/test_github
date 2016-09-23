@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html lang="zh-cn">
+<head>
+
+<link rel="stylesheet" type="text/css" href="web/css/led/login.css">
+<script type="text/javascript" src="js/jquery/1.9.1"></script>
+<script type="text/javascript" src="js/vue.js"></script>
+
+</head>
+<body>
+    <div id="example">
+      <button v-on:click="greet">Greet</button>
+      <input type="text" id="mike" value="Mike" v-model="checkedNames.firstName">
+      <input type="text" id="mike" value="Mike" v-model="checkedNames.secondName">
+      <p>{{checkedNames.firstName}}</p><p>{{checkedNames.secondName}}</p>
+    </div>
+</body>
+<script type="text/javascript" src="js/bind_test.js"></script>
+
+</html>
