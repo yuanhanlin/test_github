@@ -11,8 +11,8 @@ var vm = new Vue({
       alert('Hello ' + this.name + '!');
       // `event` 是原生 DOM 事件
       alert(event.target.tagName);*/
-      console.log(vm.checkedNames);
-      vm.checkedNames.firstName = "changesByJs";
+      console.log(this.checkedNames);
+      this.checkedNames.firstName = "changesByJs";
       
     }
   }
